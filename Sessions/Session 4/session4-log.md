@@ -1,4 +1,4 @@
-# Building an Open Source Robot Vacuum Based on the Eufy RoboVac 11 - Session 3
+# Building an Open Source Robot Vacuum Based on the Eufy RoboVac 11 - Session 4
 
 ### Progress Update
 
