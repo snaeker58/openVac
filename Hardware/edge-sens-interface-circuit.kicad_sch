@@ -1,0 +1,1407 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bc19e169-4b0e-49e4-a308-cedcd70a9efd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 148.59 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e80f2eb-3c9e-4044-84dc-d36fc3e4e2d7")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0e11ba-59cf-455b-b2a9-f37f33680ccd")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2925cd98-80ce-4e5e-9f54-1a4a12fa2135")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ec643a-8359-4d4b-ba7d-47f345f5b15a")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bf6f4c-140e-4a1e-92c5-bd1615171a30")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c030130-f65a-4d94-92b6-736f1ca37237")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4441b112-bdcd-4390-afce-2ed12f190a65")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b83597-cf20-4a68-aeb1-d05296c45d2a")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607c841d-8258-4701-a048-5a69600b918c")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 157.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93af7cf8-aa0e-47d4-b21e-b429bf87695d")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bac6a69-4c0f-44bb-b99e-5d5e414bf32a")
+	)
+	(hierarchical_label "senseIR_{A}"
+		(shape output)
+		(at 148.59 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "8d588d7b-8925-43a0-bf1e-04e418caefe2")
+	)
+	(hierarchical_label "activateIR"
+		(shape input)
+		(at 128.27 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "d550125e-08d1-4a43-b6e1-5f72ac4e6b9e")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f6fae9-6e97-496c-934f-5f71aba387bc")
+		(property "Reference" "#PWR012"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d06b991-6b7e-4850-871d-9c60dc609d63")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a563da4-dc86-4015-bcd5-304d0e0e3243")
+		(property "Reference" "#PWR011"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441c14af-6102-41fe-a8f9-9318ed1f2a2c")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b72ff8-9c08-4cf9-bbd6-c0a1e5f6520e")
+		(property "Reference" "R8"
+			(at 138.684 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 138.684 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d38d612-5890-4d66-ad89-456bca3f3dc3")
+		)
+		(pin "2"
+			(uuid "177a29c1-238d-4a15-9370-9e62d5b4dba8")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb2290b-2680-490b-ba40-b5e0ea6adf32")
+		(property "Reference" "R9"
+			(at 153.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 153.67 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cc4788a-eeb3-40bd-80e1-5de481b8f4bb")
+		)
+		(pin "1"
+			(uuid "db9cc08a-fb53-4dfd-a4fc-7d5d0404eccf")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 140.97 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7275faef-388a-40aa-8e3b-5cc78cc4dbc8")
+		(property "Reference" "Q7"
+			(at 133.858 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 133.858 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 146.05 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "981593b9-86e1-4bf7-813a-da37502a2a42")
+		)
+		(pin "3"
+			(uuid "54c12d4f-3a0f-4d90-9ad1-11d16a860990")
+		)
+		(pin "2"
+			(uuid "617792f5-495e-443c-ad54-717ffa7f884d")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af849063-90b8-42c9-9305-04dc211c0e24")
+		(property "Reference" "R7"
+			(at 132.08 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f0f2aa0-ac63-4dc7-b24c-0c70e1d633dc")
+		)
+		(pin "1"
+			(uuid "257caf48-6f8f-4b61-84b5-bcfd7db4f765")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df57296c-9c41-4d2a-810d-ef576fd079cf")
+		(property "Reference" "#PWR09"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b198238b-9ea1-4788-9f56-7ee03d758a19")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9d626d-2373-4a59-a239-6d423ffcfa85")
+		(property "Reference" "#PWR010"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74b21c6-4b2a-4c62-9100-f16c905bf9ef")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 95.25)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88d33abb-2da1-4302-82c1-cb5321f35028")
+		(property "Sheetname" "irSensModule"
+			(at 139.3734 100.33 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir-sens-module.kicad_sch"
+			(at 152.9846 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "emmiter_{pos}" input
+			(at 143.51 100.33 270)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left)
+			)
+			(uuid "db821053-3caf-4849-843e-243cab6ad63f")
+		)
+		(pin "emitter_{neg}" output
+			(at 142.24 95.25 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+			(uuid "32434e80-9725-4916-a267-85777c64a4a5")
+		)
+		(pin "sensor_{pos}" input
+			(at 148.59 100.33 270)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left)
+			)
+			(uuid "c7fb321f-9a81-46a1-9411-adf3fb6009d0")
+		)
+		(pin "sensor_{neg}" output
+			(at 149.86 95.25 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+			(uuid "dbaa0ce1-19bf-485f-952c-fd3fa06f7af7")
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb"
+					(page "4")
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848"
+					(page "6")
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0"
+					(page "8")
+				)
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d"
+					(page "10")
+				)
+			)
+		)
+	)
+)
