@@ -2504,8 +2504,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 161.29 83.82 0)
-		(mirror y)
+		(at 161.29 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2513,7 +2512,7 @@
 		(dnp no)
 		(uuid "3e8afa64-b617-4632-8f70-47f82e2f095b")
 		(property "Reference" "Q5"
-			(at 154.94 82.5499 0)
+			(at 154.94 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2521,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 154.94 85.0899 0)
+			(at 154.94 82.5501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2530,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 156.21 85.725 0)
+			(at 156.21 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 156.21 87.63 0)
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,15 +3233,15 @@
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
 		(at 118.11 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6e999ec-6818-470d-87ad-087778556258")
 		(property "Reference" "Q2"
-			(at 124.46 82.5499 0)
+			(at 124.46 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3250,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 124.46 85.0899 0)
+			(at 124.46 82.5501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3259,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 123.19 85.725 0)
+			(at 123.19 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3270,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 123.19 87.63 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
