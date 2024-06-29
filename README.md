@@ -1,20 +1,29 @@
-OpenVac
+# OpenVac Project
 
-The goal of OpenVac is to create a new open soruce control board for my braindead eufy RoboVac 11. 
+The goal of OpenVac is to create a new open-source control board for my braindead eufy RoboVac 11.
 
-Genreal timeline:
+## General Timeline
 
-... in progress
-basic movement: motor driver / h-bridge design
-basic sensing: edge sensor circuit for the four edge-sesnor modules
-... to be done
-brushes: drive circuits for all cleaning brushes
-vaacuum: PWM drive circuit for actual vaacuum turbine
-... further down the line
-determine microprocessor: based on GPIO and analog as well as performance requirements
-integrate microprocessor: the hardware integration of all support circuits required by the microprocessor and connection to all previous systems
-... far future
-navigational software: the software to allow autonomous cleaning
-user interface: an interface to allow more precise control
+### In Progress
 
-Estimated time: 2 years to infinity
+#### Basic Movement
+- Motor driver / H-bridge design
+
+#### Basic Sensing
+- Edge sensor circuit for the four edge-sensor modules
+
+### To Be Done
+
+#### Brushes
+- Drive circuits for all cleaning brushes
+
+#### Vacuum
+- PWM drive circuit for the actual vacuum turbine
+
+### Further Down the Line
+
+#### Determine Microprocessor
+- Based on GPIO and analog as well as performance requirements
+
+#### Integrate Microprocessor
+- Har
