@@ -26,4 +26,15 @@ The goal of OpenVac is to create a new open-source control board for my braindea
 - Based on GPIO and analog as well as performance requirements
 
 #### Integrate Microprocessor
-- Har
+- Hardware integration of all support circuits required by the microprocessor and connection to all previous systems
+
+### Far Future
+
+#### Navigational Software
+- Software to allow autonomous cleaning
+
+#### User Interface
+- Interface to allow more precise control
+
+## Estimated Time
+2 years to infinity
