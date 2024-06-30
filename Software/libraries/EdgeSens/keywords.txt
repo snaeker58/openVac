@@ -1,0 +1,2 @@
+EdgeSens	KEYWORD1
+edgeTripped	KEYWORD2
