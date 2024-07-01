@@ -425,6 +425,22 @@
     [
       "08f6c6d2-33d9-4f58-9cda-ca1b9dcb0eee",
       "driveMotorDriveCircuit1"
+    ],
+    [
+      "f17fa9e0-9118-4054-94ba-59b35d4c5b75",
+      "frontBrushMotorCircuit"
+    ],
+    [
+      "774173f0-d82d-4c09-a675-40abc594229f",
+      "frontBrushMotorCircuit1"
+    ],
+    [
+      "9968c9a4-6d26-4a70-9821-c64ec4695778",
+      "mainBrushMotorCircuit"
+    ],
+    [
+      "72c20671-fc63-4c11-a308-778a55311c64",
+      "turbineMotorCircuit"
     ]
   ],
   "text_variables": {}
