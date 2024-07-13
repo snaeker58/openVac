@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -441,6 +442,14 @@
     [
       "72c20671-fc63-4c11-a308-778a55311c64",
       "turbineMotorCircuit"
+    ],
+    [
+      "ce1b157e-3cb5-4fe5-8c09-8dc1bffd7ec4",
+      "bumperArrayInterfaceCircuit"
+    ],
+    [
+      "9366acce-5dbe-4326-a55d-dededa81e930",
+      "bumperArray"
     ]
   ],
   "text_variables": {}

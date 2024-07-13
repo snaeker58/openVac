@@ -439,7 +439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21023c89-1657-4fd9-9951-5f740840380f")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 163.83 107.0228 90)
 			(effects
 				(font
@@ -494,16 +494,16 @@
 		)
 		(instances
 			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0/88d33abb-2da1-4302-82c1-cb5321f35028"
+					(reference "D6")
+					(unit 1)
+				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb/88d33abb-2da1-4302-82c1-cb5321f35028"
 					(reference "D2")
 					(unit 1)
 				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848/88d33abb-2da1-4302-82c1-cb5321f35028"
 					(reference "D4")
-					(unit 1)
-				)
-				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0/88d33abb-2da1-4302-82c1-cb5321f35028"
-					(reference "D6")
 					(unit 1)
 				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d/88d33abb-2da1-4302-82c1-cb5321f35028"
@@ -523,7 +523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b51f772-b349-4e54-8883-1c56faac58fd")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 149.86 106.8069 90)
 			(effects
 				(font
@@ -578,16 +578,16 @@
 		)
 		(instances
 			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0/88d33abb-2da1-4302-82c1-cb5321f35028"
+					(reference "D5")
+					(unit 1)
+				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/8abbe261-48c3-4668-94b5-9a917ef396bb/88d33abb-2da1-4302-82c1-cb5321f35028"
 					(reference "D1")
 					(unit 1)
 				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/b687b0a4-cbe8-439c-a447-5ea3319f4848/88d33abb-2da1-4302-82c1-cb5321f35028"
 					(reference "D3")
-					(unit 1)
-				)
-				(path "/cfb1a53c-1978-4730-a380-294525b876d3/55098150-25e9-40bf-a15b-af880a8b89c0/88d33abb-2da1-4302-82c1-cb5321f35028"
-					(reference "D5")
 					(unit 1)
 				)
 				(path "/cfb1a53c-1978-4730-a380-294525b876d3/f15de18d-1990-4e03-b258-deed06062f4d/88d33abb-2da1-4302-82c1-cb5321f35028"

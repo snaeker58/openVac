@@ -5595,6 +5595,45 @@
 		)
 	)
 	(sheet
+		(at 64.77 110.49)
+		(size 38.1 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce1b157e-3cb5-4fe5-8c09-8dc1bffd7ec4")
+		(property "Sheetname" "bumperArrayInterfaceCircuit"
+			(at 64.77 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bumper-array-interface-circuit.kicad_sch"
+			(at 64.77 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OpenVac"
+				(path "/cfb1a53c-1978-4730-a380-294525b876d3"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 186.69 111.76)
 		(size 24.13 7.62)
 		(fields_autoplaced yes)
