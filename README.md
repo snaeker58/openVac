@@ -4,37 +4,58 @@ The goal of OpenVac is to create a new open-source control board for my braindea
 
 ## General Timeline
 
-### In Progress
 
-#### Basic Movement
-- Motor driver / H-bridge design
+### Concept v0
 
-#### Basic Sensing
-- Edge sensor circuit for the four edge-sensor modules
+#### Finished
 
-### To Be Done
+##### Motor Drive Circuit
+- motor driver / H-bridge design
 
-#### Brushes
-- Drive circuits for all cleaning brushes
+##### Brush Control
+- drive circuits for all cleaning brushes
 
-#### Vacuum
-- PWM drive circuit for the actual vacuum turbine
+##### Vacuum
+- understanding pinout
 
-### Further Down the Line
+##### Basic Sensing
+- understanding the various sensors
+- reverse engineering the main sensor array
+- make edge sensors functional
+  
+---
 
-#### Determine Microprocessor
+### Movement Phase v0.1
+
+#### In Progress
+
+##### Basic Movement
+- steering and acceleration
+
+##### Movement PCB
+- motor drive circuit
+- side brush control circuit
+- main brush control circuit
+- PWM vacuum 
+  
+---
+### Future Phases...
+
+#### Further Down the Line
+
+##### Determine Microprocessor
 - Based on GPIO and analog as well as performance requirements
 
-#### Integrate Microprocessor
+##### Integrate Microprocessor
 - Hardware integration of all support circuits required by the microprocessor and connection to all previous systems
 
-### Far Future
+#### Far Future
 
-#### Navigational Software
+##### Navigational Software
 - Software to allow autonomous cleaning
 
-#### User Interface
+##### User Interface
 - Interface to allow more precise control
 
-## Estimated Time
+### Estimated Time
 2 years to infinity
