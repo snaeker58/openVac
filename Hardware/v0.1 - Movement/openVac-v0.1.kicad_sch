@@ -1,0 +1,124 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "51937001-9622-40ac-b790-90fb4ff028f7")
+	(paper "A4")
+	(title_block
+		(rev "v0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 46.99)
+		(size 21.59 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac46296d-1959-48c3-a456-a22caced9bcf")
+		(property "Sheetname" "Main Brush"
+			(at 25.4 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main-brush.kicad_sch"
+			(at 25.4 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "mainBrushActivate" input
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7d594a6-8069-453e-a1a0-2101554b6c9b")
+		)
+		(instances
+			(project "openVac-v0.1"
+				(path "/51937001-9622-40ac-b790-90fb4ff028f7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 30.48)
+		(size 21.59 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2d719c1-f776-4e7f-9210-67699f768443")
+		(property "Sheetname" "Sweep Brushes"
+			(at 25.4 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sweep-brushes.kicad_sch"
+			(at 25.4 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "rightBrushActivate" input
+			(at 46.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e03970b9-17a5-4282-a312-5607f1e9e9c7")
+		)
+		(pin "leftBrushActivate" input
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf0a9272-e062-4e4d-b580-8f54560fe1af")
+		)
+		(instances
+			(project "openVac-v0.1"
+				(path "/51937001-9622-40ac-b790-90fb4ff028f7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
