@@ -1198,45 +1198,6 @@
 		)
 	)
 	(sheet
-		(at 25.4 80.01)
-		(size 21.59 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0a417966-5d73-406d-85a3-cdda5848b793")
-		(property "Sheetname" "Motors"
-			(at 25.4 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 25.4 92.0246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "openVac-v0.1"
-				(path "/51937001-9622-40ac-b790-90fb4ff028f7"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 25.4 63.5)
 		(size 21.59 11.43)
 		(fields_autoplaced yes)

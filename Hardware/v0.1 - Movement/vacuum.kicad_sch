@@ -468,7 +468,7 @@
 		)
 	)
 	(hierarchical_label "Tach"
-		(shape input)
+		(shape output)
 		(at 143.51 92.71 0)
 		(fields_autoplaced yes)
 		(effects
