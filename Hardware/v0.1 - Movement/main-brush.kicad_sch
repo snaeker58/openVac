@@ -806,14 +806,14 @@
 		)
 	)
 	(junction
-		(at 146.05 109.22)
+		(at 146.05 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b30c41cc-d5fe-40aa-ba63-e4a1796139fa")
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 146.05 109.22)
+			(xy 146.05 88.9) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 140.97 116.84)
+			(xy 129.54 97.79) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +833,7 @@
 	)
 	(hierarchical_label "mainBrushActivate"
 		(shape input)
-		(at 146.05 107.95 90)
+		(at 146.05 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -841,20 +841,20 @@
 			)
 			(justify left)
 		)
-		(uuid "423a9cd4-c542-47ee-bdbc-78831c30aea5")
+		(uuid "b59eb371-7767-40ac-938c-c72f98cf252a")
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 129.54 119.38 270)
+		(at 129.54 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "143a44c7-412c-42ce-8ea4-ec9c2b775b3f")
+		(uuid "07c7442d-692d-45dc-9beb-9c3d459a61b9")
 		(property "Reference" "#PWR06"
-			(at 125.73 119.38 0)
+			(at 125.73 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +863,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 133.35 119.3799 90)
+			(at 133.35 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 119.38 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 119.38 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 129.54 119.38 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +912,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 109.22 90)
+		(at 149.86 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -921,7 +921,7 @@
 		(fields_autoplaced yes)
 		(uuid "18323886-e5ae-4d89-ab2d-c765f893b2e1")
 		(property "Reference" "R3"
-			(at 149.86 102.87 90)
+			(at 149.86 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +929,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.86 105.41 90)
+			(at 149.86 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +937,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 149.86 110.998 90)
+			(at 149.86 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 109.22 0)
+			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 109.22 0)
+			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,17 +979,85 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 116.84 90)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 124.46 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "487d1725-3041-45e6-bd82-6c408302b170")
+		(uuid "6e706373-466c-41c4-ac2e-46d98e7e6d15")
+		(property "Reference" "J4"
+			(at 125.095 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Brush Motor Main"
+			(at 125.095 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6480fdf-2455-4d12-afaa-da589d870572")
+		)
+		(pin "1"
+			(uuid "875b8ba6-5002-4bd1-895b-3b4a74a5b063")
+		)
+		(instances
+			(project "openVac-v0.1"
+				(path "/51937001-9622-40ac-b790-90fb4ff028f7/ac46296d-1959-48c3-a456-a22caced9bcf"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa1c0743-bd92-4c29-9a3d-72c72d5acb3b")
 		(property "Reference" "#PWR08"
-			(at 157.48 116.84 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +1066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 116.8399 90)
+			(at 154.94 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 116.84 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 116.84 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 116.84 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,16 +1115,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 146.05 114.3 90)
+		(at 146.05 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "565b7e8b-d89d-4792-84e5-dc0103638da0")
+		(uuid "c67f9bad-8f0f-4f05-9b81-719ea23fcf67")
 		(property "Reference" "Q4"
-			(at 146.05 120.65 90)
+			(at 146.05 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1132,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 146.05 123.19 90)
+			(at 146.05 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1140,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 147.955 119.38 0)
+			(at 147.955 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1151,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 149.86 119.38 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1161,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 146.05 114.3 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,76 +1188,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 124.46 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c73b9588-4a0a-4428-94e0-4ec776ffffe9")
-		(property "Reference" "J4"
-			(at 125.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Brush Motor Main"
-			(at 125.095 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6480fdf-2455-4d12-afaa-da589d870572")
-		)
-		(pin "1"
-			(uuid "875b8ba6-5002-4bd1-895b-3b4a74a5b063")
-		)
-		(instances
-			(project "openVac-v0.1"
-				(path "/51937001-9622-40ac-b790-90fb4ff028f7/ac46296d-1959-48c3-a456-a22caced9bcf"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 153.67 109.22 90)
+		(at 153.67 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1198,7 +1198,7 @@
 		(fields_autoplaced yes)
 		(uuid "fffe24fd-c304-46d6-bf26-333fabdcab64")
 		(property "Reference" "#PWR05"
-			(at 160.02 109.22 0)
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 109.2199 90)
+			(at 157.48 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 109.22 0)
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 109.22 0)
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 109.22 0)
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
