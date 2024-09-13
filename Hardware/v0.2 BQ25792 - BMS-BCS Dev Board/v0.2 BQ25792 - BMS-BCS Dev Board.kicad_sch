@@ -5098,6 +5098,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C308704"
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3eabd2e1-5327-4d61-be44-12eb6c50caa3")
 		)
@@ -5298,6 +5307,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2906884"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7c0387e-24a7-45c1-9f87-c1bca8db5f1c")
 		)
@@ -5361,6 +5379,15 @@
 			)
 		)
 		(property "Description" ">12V Vds, 5A Id, N-Channel MOSFET, SOT-23"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C915719"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -5434,6 +5461,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22435940"
 			(at 250.19 83.82 0)
 			(effects
 				(font
@@ -5597,7 +5633,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "272d777d-e177-4dc5-ac4f-19d9ec98e1d9")
 		(property "Reference" "J5"
 			(at 32.004 172.212 0)
@@ -5634,6 +5670,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 29.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 29.21 182.88 0)
 			(effects
 				(font
@@ -5710,6 +5755,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2906884"
 			(at 250.19 64.77 0)
 			(effects
 				(font
@@ -5920,6 +5974,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C308704"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6362155-f95b-43a4-909b-5fb7fdae75f4")
 		)
@@ -5982,6 +6045,15 @@
 			)
 		)
 		(property "Description" "> 20V Vds, 5A Id, N-Channel MOSFET, SOT-23-3L"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C3033398"
 			(at 251.46 38.1 0)
 			(effects
 				(font
@@ -6121,6 +6193,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22463806"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -6532,6 +6613,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2862876"
+			(at 97.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "edf04489-1063-42e4-9eb6-508787dd6735")
 		)
@@ -6816,6 +6906,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C5142571"
+			(at 210.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a60d9798-7b1e-4d70-a880-ae625d1c4e97")
 		)
@@ -6877,6 +6976,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 223.52 83.82 0)
 			(effects
 				(font
@@ -7011,6 +7119,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2929913"
 			(at 173.99 45.72 0)
 			(effects
 				(font
@@ -7355,6 +7472,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76143fdf-be80-48cf-9ae1-02d4899fb576")
 		)
@@ -7378,7 +7504,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68897116-c98f-400e-a1cd-eb41c8d11753")
 		(property "Reference" "J1"
@@ -7416,6 +7542,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 109.22 55.88 0)
 			(effects
 				(font
@@ -7563,6 +7698,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98e0d518-3a6f-4b3f-be6a-8ed6c907cf11")
 		)
@@ -7690,6 +7834,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 167.64 22.86 0)
 			(effects
 				(font
@@ -7834,6 +7987,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 93.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f352b8ab-e01a-427b-a390-15745a56a3f9")
 		)
@@ -7895,6 +8057,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C466621"
 			(at 146.05 45.72 0)
 			(effects
 				(font
@@ -7965,6 +8136,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 233.68 83.82 0)
 			(effects
 				(font
@@ -8174,6 +8354,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22435940"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88ce0344-aaac-48af-80ac-a6861a413e85")
 		)
@@ -8236,6 +8425,15 @@
 			)
 		)
 		(property "Description" ">12V Vds, 5A Id, N-Channel MOSFET, SOT-23"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C915719"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -8449,6 +8647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C206961"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "293237ef-2e0d-4d8c-b7b8-14259ee09c73")
 		)
@@ -8577,6 +8784,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22435940"
 			(at 31.75 53.34 0)
 			(effects
 				(font
@@ -8721,6 +8937,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11631"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c446e56-7398-499f-8155-9c85e1566b2b")
 		)
@@ -8743,7 +8968,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9fd55a9d-6baa-4588-913e-267f7123a898")
 		(property "Reference" "J2"
@@ -8781,6 +9006,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 109.22 26.67 0)
 			(effects
 				(font
@@ -9061,6 +9295,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22435940"
+			(at 93.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e53c3972-3480-4ad1-b18d-7002a297473b")
 		)
@@ -9120,6 +9363,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2906885"
 			(at 124.46 172.72 0)
 			(effects
 				(font
@@ -9265,6 +9517,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a92ae731-1392-47d7-a4f4-20ff6708685e")
 		)
@@ -9324,6 +9585,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2906884"
 			(at 53.34 59.69 0)
 			(effects
 				(font
@@ -9402,6 +9672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cad4ff2d-4f6a-433c-a529-6e3f07d40d3b")
 		)
@@ -9464,6 +9743,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 243.84 83.82 0)
 			(effects
 				(font
@@ -9601,6 +9889,15 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C206961"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -9812,6 +10109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C915719"
+			(at 54.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4343d898-ada4-4b97-857c-9ca16bd04471")
 		)
@@ -9902,7 +10208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d63ffcd4-3805-4e66-be95-97fb9d5964ec")
 		(property "Reference" "J3"
 			(at 111.506 80.01 0)
@@ -9939,6 +10245,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -10083,6 +10398,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22435940"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "316c2f02-2c0e-46f1-90d9-66f42772e849")
 		)
@@ -10219,6 +10543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 265.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a24e869e-d689-4468-a7fc-bfa23631d2c9")
 		)
@@ -10282,6 +10615,15 @@
 			)
 		)
 		(property "Description" ">12V Vds, 5A Id, N-Channel MOSFET, SOT-23"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C915719"
 			(at 44.45 44.45 0)
 			(effects
 				(font
@@ -10428,6 +10770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C206961"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86cecd5b-d58c-45fc-89bd-a9128b544423")
 		)
@@ -10490,6 +10841,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5142571"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -10626,6 +10986,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 157.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 157.48 22.86 0)
 			(effects
 				(font
@@ -10771,6 +11140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C4156287"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db9827cf-f46a-41fe-8199-0d2116332436")
 		)
@@ -10833,6 +11211,15 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C497233"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -11045,6 +11432,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C7472961"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "669bbd7a-651f-4de4-b988-5b114fc15dfa")
 		)
@@ -11173,6 +11569,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 260.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7472961"
 			(at 260.35 39.37 0)
 			(effects
 				(font
