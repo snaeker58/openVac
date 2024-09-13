@@ -48,7 +48,7 @@ The goal of this project is to develop a fully functional motherboard to create 
   - Enable USB serial control for motors, brushes, and vacuum.
 - **Miniaturization**:
   - Utilize off-the-shelf components for motor drive, BMS, and more.
-- **Status**: **In progres**
+- **Status**: **In progress (order placed)**
 
 ### v0.3: Basic Sensing
 - **Sensor Development**:
