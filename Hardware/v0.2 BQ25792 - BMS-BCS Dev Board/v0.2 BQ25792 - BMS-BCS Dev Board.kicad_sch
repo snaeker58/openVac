@@ -3375,6 +3375,12 @@
 		(uuid "21df5fd2-b708-4d96-b082-7114eb2349fd")
 	)
 	(junction
+		(at 120.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e1cca3-a486-42f5-ac20-4b6a4803ef4e")
+	)
+	(junction
 		(at 67.31 62.23)
 		(diameter 0)
 		(color 194 194 0 1)
@@ -3634,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "2cbc918f-fb95-4292-a82a-e7debbf31992")
+	)
+	(wire
+		(pts
+			(xy 138.43 160.02) (xy 132.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2148bf-6b60-4e94-b9db-5a42c78cd284")
 	)
 	(wire
 		(pts
@@ -4092,6 +4108,16 @@
 			(color 194 194 0 1)
 		)
 		(uuid "bdec4001-cf88-40c1-bdd1-d280e078ee2d")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0677ad1-1d91-4413-94bc-a0bc9caea004")
 	)
 	(wire
 		(pts
@@ -4781,7 +4807,7 @@
 		(uuid "24c7fe28-7138-4fea-9d88-7d82313dbe5a")
 	)
 	(label "BAT"
-		(at 120.65 157.48 0)
+		(at 125.73 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5782,6 +5808,82 @@
 			(project ""
 				(path "/9e49e097-8a55-4650-afb3-621b68b72b0d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 143.51 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2c2e46f9-80bc-48ea-a09c-945d7d1167cf")
+		(property "Reference" "J4"
+			(at 141.224 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "System Out"
+			(at 140.462 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-FB-B_1x02_P3.96mm_Vertical"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 143.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "518bee68-acdb-42c6-bbb3-511a1dfb6081")
+		)
+		(pin "1"
+			(uuid "65600497-681d-467c-995e-9e6441533647")
+		)
+		(instances
+			(project "v0.2 BQ25792 - BMS-BCS Dev Board"
+				(path "/9e49e097-8a55-4650-afb3-621b68b72b0d"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7717,6 +7819,72 @@
 			(project "v0.2 BQ25792 - BMS-BCS Dev Board"
 				(path "/9e49e097-8a55-4650-afb3-621b68b72b0d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2a42ea-8973-444b-b0cc-f2650762613f")
+		(property "Reference" "#PWR042"
+			(at 132.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e0e548-0fa0-49eb-92ed-c744b4bda196")
+		)
+		(instances
+			(project ""
+				(path "/9e49e097-8a55-4650-afb3-621b68b72b0d"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
